@@ -146,18 +146,16 @@ img {
         align-items: center;
     }
 
-    .lessons .col{
+    .lessons .col,
+    .steps .col{
         width: 100%;
+        padding: 3rem 0;
     }
 
     .steps{
         margin: 0;
     }
-    .steps .col{
-        width: 100%;
-        margin: 2rem 0;
-    }
-
+   
     .why-us .col-left,
     .why-us .col-right{
         width: 100%;
@@ -167,6 +165,10 @@ img {
         background-color: black;
         margin-bottom: 0;
         padding-top: 3rem;
+    }
+
+    h2{
+        margin: 0;
     }
 
 }
